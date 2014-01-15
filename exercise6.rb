@@ -20,3 +20,10 @@ end
 
 puts grocery_list[1]
 
+grocery_list.sort!
+
+groceries(grocery_list)
+
+grocery_list.delete("salmon")
+
+groceries(grocery_list)
